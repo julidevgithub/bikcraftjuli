@@ -59,7 +59,7 @@ img{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.8px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 20px;
     padding: 10px 0px; /*aumentar altura p ajudar o click do cliente*/   }
 
@@ -85,15 +85,13 @@ img{
     text-transform: uppercase;
     color: white; }
 
-.quote {
-    font-weight: bolder;
-    color: white;  }
-
 .quote p {
     font-size: 25px;
     font-style: italic;
     color:white;
-    margin-bottom: 5px;}
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bolder;}
 
 .quote p:before { /* para colocar o "____" do quote antes*/ 
     content: "";
@@ -107,7 +105,8 @@ img{
     font-size: 15px;
     text-transform: uppercase;
     font-style: normal; 
-    letter-spacing: 0.1em;  }
+    letter-spacing: 0.1em; 
+    color: white; }
 
 .quote cite:after { /* para colocar o "____" do quote depois */ 
     content: "";
@@ -162,7 +161,7 @@ padding: 40px 0px 20px; }
 .portfolio{
     width: 100%;
     background-color:#2FAB65 ;
-    padding: 20px;}
+    padding: 40px 0 20px;}
 
 .container .esporte{
     margin-top: 20px;}
@@ -204,3 +203,92 @@ padding: 40px 0px 20px; }
     background-color:black;
     margin: 5px auto 5px auto;  }
 
+/*INTRODUÇÃO------------------------------------------------------------------------------*/
+.quote_final {
+    width: 100%;
+    height: 200px;
+    background: url("../img/img_home2.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;}
+
+.quote_rodape:before { /* para colocar o "____" do quote antes*/ 
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: white;
+    margin: 10px auto 10px auto; }   
+
+.quote_rodape p {
+    font-size: 25px;
+    font-style: italic;
+    color:white;
+    margin-bottom: 5px;}
+
+.quote_rodape cite {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-style: normal; 
+    letter-spacing: 0.1em; 
+    color:white; }
+
+.quote_rodape:after { /* para colocar o "____" do quote antes*/ 
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color: white;
+    margin: 20px auto 20px auto; }   
+
+/*FOOTER--------------------------------------------------------------------------*/        
+.footer{
+    width: 100%;
+    height: 240px;
+    background-color: #282828;
+    color:#2FAB65;
+    padding: 40px ; }
+
+.footer h3{
+    text-transform: uppercase; 
+    font-size: 15px;
+    font-weight: bolder;}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #2FAB65;
+    margin: 10px 0px; }
+
+.footer p {
+    font-size: 15px; 
+    line-height: 20px;
+    padding-right: 20px;  }
+
+.footer_contato ul li {
+    font-size: 15px; 
+    line-height: 20px;  }
+
+.footer_rede ul li{
+    display: inline-block;
+}
+
+.footer_rede ul li a{
+    border: 3px solid #2FAB65 ;
+    display: block;
+    margin: 2px;
+    padding: 5px; }
+
+.footer_rede ul li a:hover{
+    border-color:white;    }
+
+.copyright{
+    width: 100%;
+    height: 60px;
+    background-color:#2FAB65;
+    padding: 20px 0px;
+    font-size: 13px;
+
+}
