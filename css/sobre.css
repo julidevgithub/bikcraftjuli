@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.interna_sobre{
+    background: url("../img/img_sobre.jpg") no-repeat center; }
+
+.historia{
+    width: 100%;
+    height: 700px;
+    background-color:#2FAB65 ;
+    margin-top: -14px;}
+
+.foto_equipe{
+    padding-top: 40px;}
+
+.sobre li{
+    background-color: white;
+    padding: 20px;
+    height: 230px;
+   }
+
+.sobre h3{
+    text-transform: uppercase;}
+
+.sobre p{
+    text-align: left;
+    line-height: 20px;
+    font-size: 16px;}
+
+.quali_sobre{
+    margin-top: 200px;
+}
+
