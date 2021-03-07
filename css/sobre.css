@@ -1,6 +1,8 @@
 @charset "UTF-8";
 .interna_sobre{
-    background: url("../img/img_sobre.jpg") no-repeat center; }
+    background: url("../img/img_sobre.jpg") no-repeat center; 
+    background-size: cover;
+    width: 100%;}
 
 .historia{
     width: 100%;
@@ -15,17 +17,16 @@
     background-color: white;
     padding: 20px;
     height: 230px;
-   }
+      }
 
 .sobre h3{
     text-transform: uppercase;}
 
 .sobre p{
     text-align: left;
-    line-height: 20px;
     font-size: 16px;}
 
 .quali_sobre{
-    margin-top: 200px;
-}
+    margin-top: 200px;}
+
 
