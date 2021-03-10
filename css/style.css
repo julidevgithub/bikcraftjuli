@@ -13,17 +13,17 @@
     text-transform: uppercase;
     color: #2FAB65;
     letter-spacing: 0.1em; 
-    padding: 10px 15px; }
+    padding: 10px 15px }
 
 .btn:hover {
     color: white;
-    border:white 2px solid; }
+    border:white 2px solid;}
 
 .subtitulo {
     font-size: 35px;
     font-weight: bolder;
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;}
 
 .subtitulo:after {
     content: "";
@@ -34,7 +34,7 @@
     margin: 8px auto 40px;}
 
 img{
-    display: block; }
+    display: block;}
 
 /*HEADER----------------------------------------------------------------------------*/
 .header {
@@ -47,14 +47,14 @@ img{
 
 .header_menu {
     text-align: right;
-    margin-top: 25px; }
+    margin-top: 25px;}
 
 .header_menu ul li {
     display: inline-block;
-    margin-left: 20px; }
+    margin-left: 20px;}
 
 .header_menu ul li a.menu_ativo{
-    color:white }    
+    color:white}    
 
 .header_menu ul li a {
     color: black;  
@@ -63,13 +63,13 @@ img{
     letter-spacing: 0.8px;
     font-size: 16px;
     line-height: 20px;
-    padding: 10px 0px; /*aumentar altura p ajudar o click do cliente*/   }
+    padding: 10px 0px; /*aumentar altura p ajudar o click do cliente*/}
 
 .header_menu ul li a:hover {
         color: white;}
     
 .header img:hover {
-       background-color: white; }
+       background-color: white;}
 
 /*INTRODUÇÃO------------------------------------------------------------------------------*/
 .introducao {
@@ -85,7 +85,7 @@ img{
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
-    color: white; }
+    color: white;}
 
 .quote p  {
     font-size: 25px;
@@ -100,14 +100,14 @@ img{
     width: 110px;
     height: 3px;
     background-color: white;
-    margin: 56px auto 08px auto ; }
+    margin: 56px auto 08px auto;}
 
 .quote cite {
     font-size: 15px;
     text-transform: uppercase;
     font-style: normal; 
     letter-spacing: 0.1em; 
-    color: white; }
+    color: white;}
 
 .quote cite:after { /* para colocar o "____" do quote depois */ 
     content: "";
@@ -130,7 +130,7 @@ img{
     font-weight: bold;
     text-transform: uppercase;
     color: white; 
-    font-weight: bolder }
+    font-weight: bolder;}
 
 .introducao_interna h1:after { 
     content: "";
@@ -143,25 +143,25 @@ img{
 .introducao_interna p {
     font-size: 25px;
     color:white;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;}
 
 /*PRODUTOS--------------------------------------------------------------------------------*/
 .produtos {
-padding: 40px 0px 20px; }
+padding: 40px 0px 20px;}
 
 .produtos_lista li {
     background-color: #2FAB65;
-    text-align:center; }
+    text-align:center;}
 
 .produtos_icone {
     background-color:#282828 ;
-    padding: 10px 20px 10px }
+    padding: 10px 20px 10px;}
 
 .produtos_lista li h3 {
     font-weight: bolder;
     font-size: 20px;
     margin-top: 25px;
-    text-transform: uppercase; }
+    text-transform: uppercase;}
 
 .produtos_lista li h3:after {
     content: "";
@@ -169,22 +169,22 @@ padding: 40px 0px 20px; }
     width: 100px;
     height: 3px;
     background-color:black;
-    margin: 5px auto 10px auto;    }
+    margin: 5px auto 10px auto;}
 
 .produtos_lista li p {
     font-weight:normal;
     font-size: 15px;
     font-style: italic;
-    padding: 0px 10px 20px 10px; }
+    padding: 0px 10px 20px 10px;}
 
 .call {
     text-align: center;
     clear:both;
-    padding: 40.5px ; }
+    padding: 40.5px;}
 
 .call p {
     clear:both;
-    padding: 10.5px }
+    padding: 10.5px;}
 
 /*PORTFÓLIO------------------------------------------------------------------------------*/
 .portfolio{
@@ -210,19 +210,19 @@ padding: 40px 0px 20px; }
     position: absolute;
     top: 190px;
     right:170px;
-    z-index: -1; }
+    z-index: -1;}
 
 .qualidade_lista li ,.sobre_lista li{
     padding: 0 50px;
     text-align: center; 
-    margin-top: 55px;    }
+    margin-top: 55px;}
 
 .qualidade_lista p,.sobre_lista p{
     font-size: 15px;}
 
 .qualidade_lista h3, .sobre_lista h3{
     font-weight: bolder;
-    padding: 5px 0; }
+    padding: 5px 0;}
 
 .qualidade_lista h3:after,.sobre_lista h3:after  {
     content: "";
@@ -230,7 +230,7 @@ padding: 40px 0px 20px; }
     width: 100px;
     height: 3px;
     background-color:black;
-    margin: 8px auto 8px auto;  }
+    margin: 8px auto 8px auto;}
 
 /*INTRODUÇÃO------------------------------------------------------------------------------*/
 .quote_final {
@@ -248,7 +248,7 @@ padding: 40px 0px 20px; }
     width: 110px;
     height: 3px;
     background-color: white;
-    margin: 10px auto 10px auto; }   
+    margin: 10px auto 10px auto;}   
 
 .quote_rodape p {
     font-size: 25px;
@@ -261,7 +261,7 @@ padding: 40px 0px 20px; }
     text-transform: uppercase;
     font-style: normal; 
     letter-spacing: 0.1em; 
-    color:white; }
+    color:white;}
 
 .quote_rodape:after { /* para colocar o "____" do quote antes*/ 
     content: "";
@@ -269,7 +269,7 @@ padding: 40px 0px 20px; }
     width: 110px;
     height: 3px;
     background-color: white;
-    margin: 15px auto 20px auto; }   
+    margin: 15px auto 20px auto;}   
 
 /*FOOTER--------------------------------------------------------------------------*/        
 .footer{
@@ -278,7 +278,7 @@ padding: 40px 0px 20px; }
     background-color: #282828;
     color:#2FAB65;
     padding: 40px ;
-    overflow: auto; } /* A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, / clear fix */ 
+    overflow: auto;} /* A propriedade overflow especifica quando o conteúdo de um elemento de nível de bloco deve ser cortado, / clear fix */ 
 
 .footer h3{
     text-transform: uppercase; 
@@ -291,29 +291,28 @@ padding: 40px 0px 20px; }
     width: 100px;
     height: 3px;
     background-color: #2FAB65;
-    margin: 10px 0px; }
+    margin: 10px 0px;}
 
 .footer p {
     font-size: 15px; 
     line-height: 20px;
-    padding-right: 20px;  }
+    padding-right: 20px; }
 
 .footer_contato ul li {
     font-size: 15px; 
-    line-height: 20px;  }
+    line-height: 20px;}
 
 .footer_rede ul li{
-    display: inline-block;
-}
+    display: inline-block;}
 
 .footer_rede ul li a{
     border: 3px solid #2FAB65 ;
     display: block;
     margin: 2px;
-    padding: 5px; }
+    padding: 5px;}
 
 .footer_rede ul li a:hover{
-    border-color:white;    }
+    border-color:white;}
 
 .copyright{
     width: 100%;
