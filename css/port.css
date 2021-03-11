@@ -31,8 +31,3 @@
     margin: 10px auto 40px auto;
 }
 
-/* apagar ref contato */
-.interna_contato{
-    background: url("../img/img_contato.jpg") no-repeat center; 
-    background-size: cover;
-    width: 100%;}

@@ -118,9 +118,7 @@ button:hover{
     margin-top: 36px; }
 
 .orcamento_dados ul{
-    padding-right: 80px;
-}
-
+    padding-right: 80px;}
 
 .orcamento_dados ul li{
     background-color: #2FAB65;
@@ -135,3 +133,26 @@ button:hover{
     background-color: #2FAB65; 
     }    
     */
+
+/*PÁGINA CONTATO------------------------------------------------------- */
+.interna_contato{
+    background: url("../img/img_contato.jpg") no-repeat center; 
+    background-size: cover;
+    width: 100%;}
+
+.contato{
+    padding: 50px 0;}    
+    
+.redes_icone h3{
+    font-weight: bolder;
+    padding: 30px 0px 10px;}
+
+.redes_icone ul li{
+        display: inline-block;
+        padding-right: 10px;
+        border: 2px solid #2FAB65;
+        padding: 8px;
+        margin-right: 5px;}
+.mapa{
+    padding: 0 0 60px;}
+
