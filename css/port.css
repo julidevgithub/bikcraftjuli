@@ -15,7 +15,8 @@
 .quote_port {
     color: black;
     text-align: center; 
-    padding: 0 220px 0 220px;    }
+    max-width: 500px; /*definir largura máxima*/
+    margin: 0 auto;   }
 
 .quote_port p{
     font-weight: bolder; 
@@ -28,6 +29,8 @@
     width: 110px;
     height: 3px;
     background-color:black;
-    margin: 10px auto 40px auto;
-}
+    margin: 10px auto 40px auto;}
+
+.port_fotos{
+    padding: 20px 0px 40px ;}
 

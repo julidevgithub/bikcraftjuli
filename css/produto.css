@@ -128,13 +128,17 @@ button:hover{
     padding: 5px 10px;}
 
     /* Irá mudar a cor das li... escolhendo as pares ou impares
-    .orcamento_dados ul li:nth-child(even){  (só as li pares)
-    .orcamento_dados ul li:nth-child(odd){  (só as li impares)
-    background-color: #2FAB65; 
-    }    
+    .orcamento_dados ul li:nth-child(even){  }(só as li pares)
+    .orcamento_dados ul li:nth-child(odd){  }(só as li impares)
+    background-color: #2FAB65;  
+
+    Para selecionar o item que vc quer quando se tem muitos itens iguais
+    .contato_dados span:nth-of-type(even){}
+    .contato_dados span:nth-of-type(odd){}
+    .contato_dados span:nth-of-type(odd){}
     */
 
-/*PÁGINA CONTATO------------------------------------------------------- */
+/*CSS PÁGINA CONTATO------------------------------------------------------- */
 .interna_contato{
     background: url("../img/img_contato.jpg") no-repeat center; 
     background-size: cover;
@@ -145,7 +149,7 @@ button:hover{
     
 .redes_icone h3{
     font-weight: bolder;
-    padding: 30px 0px 10px;}
+    padding: 30px 0px 10px;}    
 
 .redes_icone ul li{
         display: inline-block;
@@ -153,6 +157,10 @@ button:hover{
         border: 2px solid #2FAB65;
         padding: 8px;
         margin-right: 5px;}
+
+.redes_icone ul li:hover{
+    border: 2px solid black;}
+    
 .mapa{
     padding: 0 0 60px;}
 
