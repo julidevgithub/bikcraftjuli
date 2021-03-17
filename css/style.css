@@ -34,7 +34,8 @@
     margin: 8px auto 40px;}
 
 img{
-    display: block;}
+    display: block;
+    max-width: 100%;} /* config responsivo*/
 
 /*HEADER----------------------------------------------------------------------------*/
 .header {
