@@ -106,8 +106,12 @@
 	.footer{
 		padding-bottom: 10px;
 		height: 481px;
+<<<<<<< HEAD
 		padding-top: 30px;
 		}
+=======
+		padding-top: 30px	}
+>>>>>>> 1bbbcf3e14ec07eb88415085416c7ebe07775983
 
 	.footer p{
 		font-size: 12px;}
