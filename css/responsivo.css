@@ -93,14 +93,21 @@
 	.quote_rodape p {
 		font-size: 18px;}
 
-	.quote_rodape:before { /* para colocar o "____" do quote antes*/ 
-		margin: 10px auto ;}   
+	.quote_rodape:before {  
+		margin: 10px auto ;}  
+		
+		.quote_final {
+			padding-top: 20px;}
+		
+		.quote_rodape:after { 
+			margin: 10px auto;}   
 
 /*HOME FOOTER*/
 	.footer{
 		padding-bottom: 10px;
 		height: 481px;
-		display: block;	}
+		padding-top: 30px;
+		}
 
 	.footer p{
 		font-size: 12px;}
@@ -111,6 +118,10 @@
 
 	.footer_rede ul li a img{
 		width: 28px;}
+
+		
+
+	
 
 /*SOBRE INTRODUÇÃO*/
 	.interna_sobre{
