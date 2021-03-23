@@ -87,13 +87,20 @@
 		margin-top: 25px;}
 
 /*HOME QUOTE RODAPÉ*/	
+	.quote_final{
+		display: block;	}
+
 	.quote_rodape p {
 		font-size: 18px;}
+
+	.quote_rodape:before { /* para colocar o "____" do quote antes*/ 
+		margin: 10px auto ;}   
 
 /*HOME FOOTER*/
 	.footer{
 		padding-bottom: 10px;
-		height: 500px;	}
+		height: 481px;
+		display: block;	}
 
 	.footer p{
 		font-size: 12px;}
@@ -117,10 +124,10 @@
 
 /* SOBRE HISTÓRIA*/
 	.historia{
-		height: 780px;		}
+		height: 825px;		}
 
 	.sobre li {	
-		height: 280px; 
+		height: 300px; 
 		margin-top: 30px; }
 
 	.sobre li p{	
