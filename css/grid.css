@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 .container {
-	width: 960px;
+	width: 980px; /*era 960px*/
 	margin: 0 auto;
 	padding: 0px;
 	position: relative; }
@@ -46,7 +46,7 @@ Definir tamanho máximo do Grid de 788px (tamanho para tablet, tela um pouco men
 @media only screen and (min-width: 788px) and (max-width: 979px){
 
 	.container{
-		width: 768px }               /*era 960px ... vide acima... quando atingir 788px ira diminuir 
+		width: 788px }               /*era 960px ... vide acima... quando atingir 788px ira diminuir 
 		                              para o grid abaixo*/	
 	.grid-1		{width: 28px;}
 	.grid-2		{width: 76px;}
@@ -76,8 +76,5 @@ Definir tamanho máximo do Grid de 788px (tamanho para tablet, tela um pouco men
 		width: 300px;
 		margin: 0 0 20px 0; 	          /*margin p quando diminuir a tela não ficar*/ 
 		float: none;  }	         /*grudado no item acima e não deixar flutuar*/
-
-	
-
 	
 }

@@ -204,7 +204,7 @@ padding: 40px 0px 20px;}
 
 .qualidade::after{ /*posição da imagem das linhas*/
     content: "";
-    width: 623px;
+    width: 637px;
     height: 91.25px;
     display: block;
     background: url("../img/desenho\ quali.svg") no-repeat center;
@@ -275,7 +275,7 @@ padding: 40px 0px 20px;}
 /*FOOTER--------------------------------------------------------------------------*/        
 .footer{
     width: 100%;
-    height: 240px;
+    height: 220px;
     background-color: #282828;
     color:#2FAB65;
     padding: 40px ;
