@@ -96,22 +96,19 @@
 	.quote_rodape:before {  
 		margin: 10px auto ;}  
 		
-		.quote_final {
-			padding-top: 20px;}
+	.quote_final {
+		padding-top: 20px;}
 		
-		.quote_rodape:after { 
-			margin: 10px auto;}   
+	.quote_rodape:after { 
+		margin: 10px auto;}   
 
 /*HOME FOOTER*/
 	.footer{
 		padding-bottom: 10px;
 		height: 481px;
-<<<<<<< HEAD
-		padding-top: 30px;
+		padding: 30px 0px 0px;
+		margin: 0px;
 		}
-=======
-		padding-top: 30px	}
->>>>>>> 1bbbcf3e14ec07eb88415085416c7ebe07775983
 
 	.footer p{
 		font-size: 12px;}
@@ -123,6 +120,7 @@
 	.footer_rede ul li a img{
 		width: 28px;}
 
+		
 		
 
 	
