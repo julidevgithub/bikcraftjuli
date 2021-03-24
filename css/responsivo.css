@@ -1,27 +1,54 @@
 /*Estilo para tablets------------------------------------------------------*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
-/*QUALIDADE HOME*/
+/*HOME QUALIDADE*/
 	.qualidade::after{ /*posição da imagem das linhas*/
 		right:75px;	}
 
 	.qualidade_lista li {
 		padding: 0 20px;}
 
-/*FOOTER HOME*/
+/*HOME FOOTER*/
 	.footer{
 		height: 240px;}	
 
 	.footer_rede ul li a img{
 		width: 28px;}
 
-/*PÁGINA SOBRE HISTÓRIA*/
+/*SOBRE HISTÓRIA*/
 	.sobre li {	
 		height: 250px;  }
 
 	.historia{
 		height: 650px;}
 
+/*PRODUTO*/
+	.prod-icone{
+		width: 200px;
+		height: 222px;}
+
+	.prod-icone h2{
+		padding-top:25px;}
+
+	.prod_info{
+		width: 345px;
+		height: 222px;			}
+		
+	.prod_info p{
+		padding: 10px;
+		font-size: 14px;
+		line-height: 20px;}
+
+	.prod_info ul li{
+		width: 140px;
+		height: 40px;
+		font-size: 16px;}
+
+	.prodju{
+		height: 1635px;}
+
+
+			
 }
 
 /*Estilo para smart phone---------------------------------------------------*/
@@ -59,6 +86,9 @@
 		height: 320px ;
 		margin-top: 0px;
 		padding-top: 20px ;}
+
+	.introducao_interna {
+		padding-top: 40px;} 
 
 	.introducao h1 {
 		font-size: 45px;}	
@@ -105,8 +135,8 @@
 /*HOME FOOTER*/
 	.footer{
 		padding-bottom: 10px;
-		height: 481px;
-		padding: 30px 0px 0px;
+		height: 490px;
+		padding: 30px 0px 0px 0px;
 		margin: 0px;
 		}
 
@@ -119,17 +149,11 @@
 
 	.footer_rede ul li a img{
 		width: 28px;}
-
-		
-		
-
 	
 
 /*SOBRE INTRODUÇÃO*/
 	.interna_sobre{
-		margin-top: 0px;
-		padding-top: 35px;
-		font-size: 15px;}
+		margin-top: 0px;}
 	
 	.interna_sobre p{
 		font-size: 20px;
@@ -137,11 +161,11 @@
 
 /* SOBRE HISTÓRIA*/
 	.historia{
-		height: 825px;		}
+		height: 855px;		}
 
 	.sobre li {	
 		height: 300px; 
-		margin-top: 30px; }
+		margin-top: 40px; }
 
 	.sobre li p{	
 		font-size: 15px;
@@ -156,8 +180,50 @@
 	
 /*PRODUTO INTRODUÇÃO*/
 .interna_produto {
-    margin-top: 0px;}
+    margin-top: 0px;	}
+
+.interna_produto p {
+	font-size: 20px;
+	font-weight: bolder;}
+
+
+/*PRODUTO INFO*/
+.prod-icone{
+	width: 300px;
+	height: 225px;}
+
+.prod-icone h2{
+	padding-top:10px;}
+
+.prod_info{
+	width: 300px;
+	height: 222px;	}
 	
+.prod_info p{
+	padding: 10px;
+	font-size: 14px;
+	line-height: 20px;}
+
+.prod_info ul li{
+	width: 130px;
+	height: auto;
+	font-size: 14px;
+	margin: 3px 1px; }
+
+.prodju{
+	height: 2670px;}
+
+.produto-item{
+	padding-top: 40px;}
+
+/*PRODUTO CONTATO*/
+	.form{
+		padding-right:0px; }
+
+		.orcamento_dados ul{
+			padding-right: 0px;}
+
+
 }
 
 
