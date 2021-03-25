@@ -1,7 +1,6 @@
 /*Estilo para tablets------------------------------------------------------*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
-
 /*HOME QUALIDADE*/
 	.qualidade::after{ /*posição da imagem das linhas*/
 		right:75px;	}
@@ -76,20 +75,20 @@
 		border: 4px solid black;
 		width: 120px;
 		display: block;
-		float: left;}
+		float: left;	}
 
 	.header_menu ul li a:hover{ 
 		background-color: white;
 		color: black;	}
 
 	.header_menu ul li a.menu_ativo{
-		border-color: white;}    
+		border-color: white;	}    
 
 /*HOME INTRODUÇÃO*/	
 	.introducao{
 		height: 335px ;
 		margin-top: 0px;
-		padding-top: 20px ;}
+		padding-top: 20px ;	}
 
 	.introducao h1 {
 		font-size: 45px;}	
@@ -98,50 +97,50 @@
 		margin: 15px auto 08px auto;}
 
 	.quote cite:after { /* para colocar o "____" do quote depois */ 
-		margin: 15px auto 25px auto;}	
+		margin: 15px auto 25px auto;	}	
 		
 	.quote p  {
-		font-size: 20px;}
+		font-size: 20px;	}
 
 	.call p{
-		font-size: 16px;}
+		font-size: 16px;	}
 
 /*HOME CALL*/	
 	.call {
-		padding: 10.5px;}
+		padding: 10.5px;	}
 
 /*HOME QUALIDADE*/	
 	.qualidade::after{ /*posição da imagem das linhas*/
 		display: none;	}
 
 	.qualidade_lista li {
-		margin-top: 25px;}
+		margin-top: 25px;	}
 
 /*HOME QUOTE RODAPÉ*/	
 	.quote_final{
 		display: block;	}
 
 	.quote_rodape p {
-		font-size: 18px;}
+		font-size: 18px;	}
 
 	.quote_rodape:before {  
-		margin: 10px auto ;}  
+		margin: 10px auto ;	}  
 		
 	.quote_final {
 		padding-top: 20px;}
 		
 	.quote_rodape:after { 
-		margin: 10px auto;}   
+		margin: 10px auto;	}   
 
 /*HOME FOOTER*/
 	.footer{
 		padding-bottom: 10px;
 		height: 490px;
 		padding: 30px 0px 0px 0px;
-		margin: 0px;		}
+		margin: 0px;	}
 
 	.footer p{
-		font-size: 12px;}
+		font-size: 12px;	}
 
 	.footer_contato ul li {
 		font-size: 12px; 
@@ -152,53 +151,54 @@
 	
 /*SOBRE INTRODUÇÃO*/
 	.interna_sobre{
-		margin-top: 0px;}
+		margin-top: 0px;	}
 	
 	.interna_sobre p{
 		font-size: 20px;
-		font-weight: bolder;}	
+		font-weight: bolder;	}	
 
 	.introducao_interna {
-		padding-top: 40px;} 
-
+		padding-top: 40px;	} 
 
 /* SOBRE HISTÓRIA*/
 	.historia{
-		height: 855px;	}
+		height: 860px;	}
 
 	.sobre li {	
-		height: 300px; 
-		margin-top: 40px; }
+		height: 305px; 
+		margin: 40px 0px 30px 0px;
+		padding-bottom: 0px;
+		margin-bottom: 0px; }
 
 	.sobre li h3{
-		padding-top: 0px;}
+		padding-top: 0px;	}
 
 	.sobre li p{	
 		font-size: 15px;
-		line-height: 20px; 			 }
+		line-height: 20px;	 }
 	
 	.foto_equipe{
 		padding-top: 10px;	}
 
 /*SOBRE QUALIDADE*/
 	.quali_sob{
-		margin-bottom:  -190px;}
+		margin-bottom:  -190px;	}
 	
 /*PRODUTO INTRODUÇÃO*/
 .interna_produto {
     margin-top: 0px;	}
 
-.interna_produto p {
+.interna_produto p, .interna_port p, .interna_contato p {
 	font-size: 20px;
-	font-weight: bolder;}
+	font-weight: bolder;	}
 
 /*PRODUTO INFO*/
 .prod-icone{
 	width: 300px;
-	height: 225px;}
+	height: 225px;	}
 
 .prod-icone h2{
-	padding-top:10px;}
+	padding-top:10px;	}
 
 .prod_info{
 	width: 300px;
@@ -207,7 +207,7 @@
 .prod_info p{
 	padding: 10px;
 	font-size: 14px;
-	line-height: 20px;}
+	line-height: 20px;	}
 
 .prod_info ul li{
 	width: 130px;
@@ -216,28 +216,38 @@
 	margin: 3px 1px; }
 
 .prodju{
-	height: 2670px;}
+	height: 2670px;	}
 
 .produto-item{
-	padding-top: 40px;}
+	padding-top: 40px;	}
 
 /*PRODUTO CONTATO*/
 .form{
 	padding-right:0px; }
 
 .orcamento_dados ul{
-	padding-right: 0px;}
+	padding-right: 0px;	}
 
 /*PORTFOLIO*/
 
 .interna_port{
-    margin-top: 0px;}
+    margin-top: 0px;	}
 
 .interna_contato{
-    margin-top: 0px;}
+    margin-top: 0px;	}
 
+/*CONTATO*/
+.contato{
+    padding: 40px 0;	} 
 
-	
+.mapa{
+	border: 2px solid #2FAB65;
+	margin-bottom:70px;
+	margin-top: -40px;
+	height: 87px;	}
+
+.redes_icone h3{
+	padding: 10px 0px 10px;	}  
 
 }
 
