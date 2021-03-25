@@ -1,6 +1,7 @@
 /*Estilo para tablets------------------------------------------------------*/
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
+
 /*HOME QUALIDADE*/
 	.qualidade::after{ /*posição da imagem das linhas*/
 		right:75px;	}
@@ -14,6 +15,10 @@
 
 	.footer_rede ul li a img{
 		width: 28px;}
+
+/*SOBRE INTRODUÇÃO*/
+	.introducao_interna {
+		padding-top: 65px;} 
 
 /*SOBRE HISTÓRIA*/
 	.sobre li {	
@@ -32,7 +37,7 @@
 
 	.prod_info{
 		width: 345px;
-		height: 222px;			}
+		height: 222px;	}
 		
 	.prod_info p{
 		padding: 10px;
@@ -46,7 +51,6 @@
 
 	.prodju{
 		height: 1635px;}
-
 
 			
 }
@@ -83,12 +87,9 @@
 
 /*HOME INTRODUÇÃO*/	
 	.introducao{
-		height: 320px ;
+		height: 335px ;
 		margin-top: 0px;
 		padding-top: 20px ;}
-
-	.introducao_interna {
-		padding-top: 40px;} 
 
 	.introducao h1 {
 		font-size: 45px;}	
@@ -137,8 +138,7 @@
 		padding-bottom: 10px;
 		height: 490px;
 		padding: 30px 0px 0px 0px;
-		margin: 0px;
-		}
+		margin: 0px;		}
 
 	.footer p{
 		font-size: 12px;}
@@ -150,7 +150,6 @@
 	.footer_rede ul li a img{
 		width: 28px;}
 	
-
 /*SOBRE INTRODUÇÃO*/
 	.interna_sobre{
 		margin-top: 0px;}
@@ -159,13 +158,20 @@
 		font-size: 20px;
 		font-weight: bolder;}	
 
+	.introducao_interna {
+		padding-top: 40px;} 
+
+
 /* SOBRE HISTÓRIA*/
 	.historia{
-		height: 855px;		}
+		height: 855px;	}
 
 	.sobre li {	
 		height: 300px; 
 		margin-top: 40px; }
+
+	.sobre li h3{
+		padding-top: 0px;}
 
 	.sobre li p{	
 		font-size: 15px;
@@ -185,7 +191,6 @@
 .interna_produto p {
 	font-size: 20px;
 	font-weight: bolder;}
-
 
 /*PRODUTO INFO*/
 .prod-icone{
@@ -217,12 +222,22 @@
 	padding-top: 40px;}
 
 /*PRODUTO CONTATO*/
-	.form{
-		padding-right:0px; }
+.form{
+	padding-right:0px; }
 
-		.orcamento_dados ul{
-			padding-right: 0px;}
+.orcamento_dados ul{
+	padding-right: 0px;}
 
+/*PORTFOLIO*/
+
+.interna_port{
+    margin-top: 0px;}
+
+.interna_contato{
+    margin-top: 0px;}
+
+
+	
 
 }
 

@@ -75,7 +75,8 @@
     display: block; }
 
 input[type=text]{    /*colocar cor dentro do input e textarea */
-    background-color: #2FAB65; }
+    background-color: #2FAB65; 
+    border: 2px solid black; }
 
 textarea[type=text]{
     background-color: #2FAB65;
