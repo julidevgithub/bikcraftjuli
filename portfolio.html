@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href= "css\style.css">
     <link type="text/css" rel="stylesheet" href= "css\port.css">
     <link type="text/css" rel="stylesheet" href= "css\responsivo.css">
+    <script>document.documentElement.classList.add("js");</script> <!--JAVASCRIPT INCLUSÃO -->
     <title>Portfólio Bikcraft</title>
 </head>
 <body>
@@ -37,28 +38,44 @@
 </section>
 
 <!--QUOTE---------------------------------------------------------------------------------->
-<section class="container"> 
+<section class="container" data-slide="quote"> 
     <blockquote class="quote_port">
         <p> "No mundo atual a continua expansão de nossa atividade 
             cumpre um papel essencial na formulação da gestão 
             inovadora da qual fazemos parte."</p>
         <cite>Barbara Moss</cite>
     </blockquote>
+
+    <blockquote class="quote_port">   <!------JAVASCRIPT QUOTE------>
+        <p> “A vida é como andar de bicicleta. Para manter o equilíbrio, 
+            você deve continuar se movendo”</p>
+        <cite>Albert Einstein</cite>
+    </blockquote>
+
+    <blockquote class="quote_port">
+        <p> “Um passeio de bicicleta ao redor do mundo começa com uma única pedalada”</p>
+        <cite>Scott Stoll</cite>
+    </blockquote>
 </section>
 
 <!--PORTIFÓLIO------------------------------------------------------------------------------>
 <section class="portfolio">
-    <div class="container port_fotos" >
+    <div class="container port_fotos" data-slide="portfolio">
         <ul>
             <li class="grid-8"><img src="../bikcraftjuli/img/ftpasseio.jpg" alt="Bicicleta Passeio"></li>
             <li class="grid-8"><img src="../bikcraftjuli/img/ftretro.jpg" alt="Bicicleta Retro"></li>
             <li class="grid-16 esporte"><img src="../bikcraftjuli/img/ftesporte.jpg" alt="Bicicleta Esporte"></li>
         </ul>
+
+        <ul>    <!--------JAVASCRIPT QUOTE---------->
+            <li class="grid-8"><img src="../bikcraftjuli/img/ftretro.jpg" alt="Bicicleta Retro"></li>
+            <li class="grid-8"><img src="../bikcraftjuli/img/ftpasseio.jpg" alt="Bicicleta Passeio"></li>
+            <li class="grid-16 esporte"><img src="../bikcraftjuli/img/ftesporte.jpg" alt="Bicicleta Esporte"></li>
+        </ul>
+
         
     </div>
 </section>
-
-
 
 <!--FOOTER--------------------------------------------------------------------------->
 <footer>
@@ -94,5 +111,11 @@
    </div>
 </div>
 </footer>
+
+<!--JAVASCRIPT INCLUSÃO colocar no final do cód - 
+ https://github.com/origamid/simple-slide-->
+ <script src="js/simple-slide.js"></script>
+ <script src="js/script.js"></script>
+
 </body>
 </html>

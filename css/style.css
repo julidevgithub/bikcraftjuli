@@ -321,3 +321,46 @@ padding: 40px 0px 20px;}
     background-color:#2FAB65;
     padding: 20px 0px;
     font-size: 13px;}
+
+
+    /*JAVASCRIPT 5 Adicione o CSS Essencial abaixo / .js para rodar só se existir javascript */
+  .js [data-slide] {
+    position: relative;  }
+
+  .js [data-slide] > * {  /* "*" pega todo o cód do data-slide */
+    position: absolute;
+    top: 0px;
+    opacity: 0;  }
+
+  .js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+  }
+
+
+  /* 6 CSS recomendado para a navegação */
+  .js [data-slide-nav] {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .js [data-slide-nav] > button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;      /* fazer o quadrado virar redondo */
+    background: #1d1d1d;
+    text-indent: -100px;   /* tirar o número de dentro do quadrado */
+    overflow: hidden;     /* apagar o número que ficou fora/ não mostrar nada q fique de fora */
+  }
+
+  .js [data-slide-nav] > button.active { /* seleciona o botão ativo */
+    background: white;
+  }
