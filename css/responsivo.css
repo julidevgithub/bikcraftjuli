@@ -115,6 +115,12 @@
 
 	.qualidade_lista li {
 		margin-top: 25px;	}
+	
+	.qualidade{
+		padding-bottom: 20px;
+	}
+
+		
 
 /*HOME QUOTE RODAPÉ*/	
 	.quote_final{
@@ -164,12 +170,15 @@
 	.historia{
 		height: 860px;	}
 
+	.sobre{
+		padding-top: 20px; }
+		
 	.sobre li {	
-		height: 310px; 
-		margin: 40px 0px 30px 0px;
+		height: 300px; 
+		margin: 30px 0;
 		padding-bottom: 0px;
-		margin-bottom: 0px; }
-
+		margin-bottom: 0px;  }
+		
 	.sobre li h3{
 		padding-top: 0px;	}
 
@@ -178,7 +187,7 @@
 		line-height: 20px;	 }
 	
 	.foto_equipe{
-		padding-top: 10px;	}
+		padding-top: 30px;	}
 
 /*SOBRE QUALIDADE*/
 	.quali_sob{
