@@ -361,6 +361,53 @@ padding: 40px 0px 20px;}
     overflow: hidden;     /* apagar o número que ficou fora/ não mostrar nada q fique de fora */
   }
 
-  .js [data-slide-nav] > button.active { /* seleciona o botão ativo */
+  .js [data-slide-nav] button.active { /* seleciona o botão ativo */
     background: white;
   }
+
+/* .js [data-anime]{     JAVASCRIPT PARA FAZER APARECER E DESAPARECER ESCRITA
+      opacity: 0;  }
+.js .anime{
+      opacity: 1;
+      transform: none;
+      transition: transform 800ms, opacity 800ms;  } */
+
+
+/*.js [data-anime]{   JAVASCRIPT PARA FAZER RODAR 360graus A ESCRITA
+      opacity: 0;
+      transform: rotate(360deg);  }
+    .js .anime{
+      opacity: 1;
+      transform: none; 
+      transition: opacity 800ms, transform 800ms ;
+       } */
+
+.js [data-anime]{   /*JAVASCRIPT PARA FAZER APARECER DE CIMA PARA BAIXO ESCRITA*/
+      opacity: 0;
+      transform: translate3d(0, -20px, 0);  } 
+
+    .js .fadeInLeft{
+        transform: translate3d(-20px,0,0);}     
+      
+    .js .anime{
+      opacity: 1;
+      transform: translate3d(0, 1px, 0); 
+      transition: opacity 800ms, transform 800ms ;  } 
+
+
+/* 7 CSS personalizado dependendo da animação desejada 
+.fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+  .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+  .fadeInRight {
+    transform: translate3d(20px,0,0);
+  }
+  .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+  }*/
+
+
+ 
