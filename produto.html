@@ -131,21 +131,29 @@
 <section class="orcamento">
     <div class="container">
         <h2 class="subtitulo">Orçamento</h2>
-        <form id="form_orcamento" class="form grid-8">
+
+        <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="form grid-8 formphp">
 
             <label for="nome">Nome:</label>
-            <input type="text" id="nome">
+            <input type="text" id="nome" name="nome" required>
 
             <label for="email">E-mail:</label>
-            <input type="text" id="email">
+            <input type="text" id="email" name="email" required>
 
             <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone">
+            <input type="text" id="telefone" name="telefone">
 
-            <label for="espec">Especificações:</label>
-            <textarea type="text" id="espec"> </textarea>
+            <label for="espec">Mensagem:</label>
+            <textarea type="text" id="mensagem" name="mensagem" required> </textarea>
 
-            <button type="submit">Enviar</button>
+            <button type="submit" id="enviar" name="enviar"> Enviar</button>
+
+            <!--ENGANA ROBO--------->
+            <label class="nao-aparece">Se vc não é um robo deixe em branco</label>
+            <input type="text" class="nao-aparece" name="leaveblank" >
+            <label class="nao-aparece">Se vc não é um robo, nao mude esse campo</label>
+            <input type="text" class="nao-aparece" name="dontchange" value="http://" >
+         
         </form>
 
         <div class="orcamento_dados grid-8">
@@ -195,13 +203,15 @@
    </div>   
    <div class="copyright ">
        <div class="container">
-       <p class="grid-16">Bikecraft direitos reservados Juli - Março/2021</p>
+       <p class="grid-16">Bikcraft direitos reservados Juli - Março/2021</p>
    </div>
 </div>
 </footer>
 
 <script src="js/simple-anime.js"></script>
+<script src="js/simple-form.js"></script>
 <script src="js/script.js"></script>
+
 
 </body>
 </html>

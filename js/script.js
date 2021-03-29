@@ -32,3 +32,12 @@ if(window.SimpleSlide){ // só vai rodar se o SimpleSlide existir
 if(window.SimpleAnime){ // só vai rodar se o SimpleAnime
   new SimpleAnime();
 }
+
+if(window.SimpleForm){ // só vai rodar se o SimpleAnime
+new SimpleForm({
+  form: ".formphp", // seletor do formulário
+  button: "#enviar", // seletor do botão
+  erro: "<div id='form-erro'> <h2><b>Erro no envio!</b></h2> <p>Um erro ocorreu, por gentileza, envie diretamente um email para: <b>contato@julibikcraft.com</b><br> Desculpe o transtorno.</p></div>", // mensagem de erro
+  sucesso: "<div id='form-sucesso'><h2>Formulário enviado com sucesso</h2><p>Em breve entraremos em contato com você.</p></div>", // mensagem de sucesso
+});
+}
