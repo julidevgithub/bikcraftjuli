@@ -191,7 +191,10 @@
 
 /*SOBRE QUALIDADE*/
 	.quali_sob{
-		margin-bottom:  -190px;	}
+		margin-bottom:  -190px;}
+	
+	.quote_rodape{
+		padding-top:14px ; 	}
 	
 /*PRODUTO INTRODUÇÃO*/
 .interna_produto {
