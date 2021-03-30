@@ -1,0 +1,36 @@
+@charset "UTF-8";
+.interna_port{
+    background: url("../img/img_port.jpg") no-repeat center; 
+    background-size: cover;
+    width: 100%;}
+
+.quote_port:before { 
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color:black;
+    margin: 40px auto 10px auto;}
+
+.quote_port {
+    color: black;
+    text-align: center; 
+    max-width: 500px; /*definir largura máxima*/
+    margin: 0 auto;   }
+
+.quote_port p{
+    font-weight: bolder; 
+    font-style: italic;
+    padding-bottom: 10px;}
+
+.quote_port:after { 
+    content: "";
+    display: block;
+    width: 110px;
+    height: 3px;
+    background-color:black;
+    margin: 10px auto 40px auto;}
+
+.port_fotos{
+    padding: 20px 0px 40px ;}
+

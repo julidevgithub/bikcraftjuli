@@ -1,0 +1,261 @@
+/*Estilo para tablets------------------------------------------------------*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+/*HOME QUALIDADE*/
+	.qualidade::after{ /*posição da imagem das linhas*/
+		right:75px;	}
+
+	.qualidade_lista li {
+		padding: 0 20px;}
+
+/*HOME FOOTER*/
+	.footer{
+		height: 240px;}	
+
+	.footer_rede ul li a img{
+		width: 28px;}
+
+/*SOBRE INTRODUÇÃO*/
+	.introducao_interna {
+		padding-top: 65px;} 
+
+/*SOBRE HISTÓRIA*/
+	.sobre li {	
+		height: 250px;  }
+
+	.historia{
+		height: 650px;}
+
+/*PRODUTO*/
+	.prod-icone{
+		width: 200px;
+		height: 222px;}
+
+	.prod-icone h2{
+		padding-top:25px;}
+
+	.prod_info{
+		width: 345px;
+		height: 222px;	}
+		
+	.prod_info p{
+		padding: 10px;
+		font-size: 14px;
+		line-height: 20px;}
+
+	.prod_info ul li{
+		width: 140px;
+		height: 40px;
+		font-size: 16px;}
+
+	.prodju{
+		height: 1635px;}
+
+}		
+
+/*Estilo para smart phone---------------------------------------------------*/
+@media only screen and (max-width: 787px){
+
+/*HOME HEADER*/	
+	.header{
+		position: relative;
+		padding-bottom: 0px;}
+
+	.header img{
+		margin: 10px auto;}
+
+	.header_menu{
+		text-align: center;}
+
+	.header_menu ul li{
+		margin: 0 5px 5px 5px;}
+
+	.header_menu ul li a { 
+		border: 4px solid black;
+		width: 120px;
+		display: block;
+		float: left;	}
+
+	.header_menu ul li a:hover{ 
+		background-color: white;
+		color: black;	}
+
+	.header_menu ul li a.menu_ativo{
+		border-color: white;	}    
+
+/*HOME INTRODUÇÃO*/	
+	.introducao{
+		height: 335px ;
+		margin-top: 0px;
+		padding-top: 20px ;	}
+
+	.introducao h1 {
+		font-size: 45px;}	
+
+	.quote p:before { 
+		margin: 15px auto 08px auto;}
+
+	.quote cite:after { /* para colocar o "____" do quote depois */ 
+		margin: 15px auto 25px auto;	}	
+		
+	.quote p  {
+		font-size: 20px;	}
+
+	.call p{
+		font-size: 16px;	}
+
+/*HOME CALL*/	
+	.call {
+		padding: 10.5px;	}
+
+/*HOME QUALIDADE*/	
+	.qualidade::after{ /*posição da imagem das linhas*/
+		display: none;	}
+
+	.qualidade_lista li {
+		margin-top: 25px;	}
+	
+	.qualidade{
+		padding-bottom: 20px;	}		
+
+/*HOME QUOTE RODAPÉ*/	
+	.quote_final{
+		display: block;	}
+
+	.quote_rodape p {
+		font-size: 18px;	}
+
+	.quote_rodape:before {  
+		margin: 10px auto ;	}  
+		
+	.quote_final {
+		padding-top: 20px;}
+		
+	.quote_rodape:after { 
+		margin: 10px auto;	}  
+	
+/*HOME FOOTER*/
+	.footer{
+		padding-bottom: 10px;
+		height: 490px;
+		padding: 30px 0px 0px 0px;
+		margin: 0px;	}
+
+	.footer p{
+		font-size: 12px;	}
+
+	.footer_contato ul li {
+		font-size: 12px; }
+
+	.footer_rede ul li a img{
+		width: 28px;}
+	
+/*SOBRE INTRODUÇÃO*/
+	.interna_sobre{
+		margin-top: 0px;	}
+	
+	.interna_sobre p{
+		font-size: 20px;
+		font-weight: bolder;	}	
+
+	.introducao_interna {
+		padding-top: 40px;	} 
+
+/* SOBRE HISTÓRIA*/
+	.historia{
+		height: 860px;	}
+
+	.sobre{
+		padding-top: 20px; }
+		
+	.sobre li {	
+		height: 300px; 
+		margin: 30px 0;
+		padding-bottom: 0px;
+		margin-bottom: 0px;  }
+		
+	.sobre li h3{
+		padding-top: 0px;	}
+
+	.sobre li p{	
+		font-size: 15px;
+		line-height: 19px;	 }
+	
+	.foto_equipe{
+		padding-top: 30px;	}
+
+/*SOBRE QUALIDADE*/
+	.quali_sob{
+		margin-bottom:  -190px;}
+	
+	.quote_rodape{
+		padding-top: 9px ; 	}
+	
+/*PRODUTO INTRODUÇÃO*/
+.interna_produto {
+    margin-top: 0px;	}
+
+.interna_produto p, .interna_port p, .interna_contato p {
+	font-size: 20px;
+	font-weight: bolder;	}
+
+/*PRODUTO INFO*/
+.prod-icone{
+	width: 300px;
+	height: 225px;	}
+
+.prod-icone h2{
+	padding-top:10px;	}
+
+.prod_info{
+	width: 300px;
+	height: 222px;	}
+	
+.prod_info p{
+	padding: 10px;
+	font-size: 14px;
+	line-height: 20px;	}
+
+.prod_info ul li{
+	width: 130px;
+	height: auto;
+	font-size: 14px;
+	margin: 3px 1px; }
+
+.prodju{
+	height: 2670px;	}
+
+.produto-item{
+	padding-top: 40px;	}
+
+/*PRODUTO CONTATO*/
+.form{
+	padding-right:0px; }
+
+.orcamento_dados ul{
+	padding-right: 0px;	}
+
+/*PORTFOLIO*/
+.interna_port{
+    margin-top: 0px;	}
+
+.interna_contato{
+    margin-top: 0px;	}
+
+/*CONTATO*/
+.contato{
+    padding: 40px 0;	} 
+
+.mapa{
+	border: 2px solid #2FAB65;
+	margin-bottom:60px;
+	margin-top: -20px;
+	height: 87px;	}
+
+.redes_icone h3{
+	padding: 10px 0px 10px;	}  
+
+}
+
+
+
